@@ -13,7 +13,7 @@
     For example, for python 3.7, please use filename of `environment.3.7.yml`.<br>
     In case of Anaconda 2019.07, `environment.2019.07.yml`.
 1. `mkdir ./.github`
-1. Add this repository as a subtree of the repository.
+1. Add this repository as a subtree of the repository.<br>
     `git subtree add --prefix=./.github/workflows/ https://github.com/kangwonlee/workflows.git workflows/master --squash`
 1. Make changes to files of `./.github/workflows/` as necessafy & commit.
 1. Push to GitHub.
