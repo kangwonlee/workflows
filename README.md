@@ -9,6 +9,6 @@ Github Workflows as a SubTree
 1. Prepare a `pytest` setup under `./tests/` folder.
 1. `mkdir ./.github`
 1. Add this repository as a subtree of the repository.
-    `git subtree add --prefix=./.github/workflows/ https://github.com/kangwonlee/workflow.git master --squash`
+    `git subtree add --prefix=./.github/workflows/ https://github.com/kangwonlee/workflows.git workflows/master --squash`
 1. Make changes to files of `./.github/workflows/` as necessafy & commit.
 1. Push to GitHub.
