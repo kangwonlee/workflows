@@ -17,3 +17,12 @@
     `git subtree add --prefix=./.github/workflows/ https://github.com/kangwonlee/workflows.git workflows/master --squash`
 1. Make changes to files of `./.github/workflows/` as necessafy & commit.
 1. Push to GitHub.
+
+## To update the subtree
+
+1. Make sure if the updated version of this `workflows` is suitable for your work.
+1. `git subtree pull --prefix=./.github/workflows/ https://github.com/kangwonlee/workflows.git workflows/master --squash`
+
+## To feedback
+
+1. Please check https://github.com/kangwonlee/workflows/issues
