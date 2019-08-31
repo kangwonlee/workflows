@@ -1,6 +1,8 @@
 # workflows
 
-Github Workflows as a SubTree
+* Github Workflows as a SubTree
+* Would use `conda` to create a `test-environment`
+* Based on https://github.com/kangwonlee/test_ipynb.git
 
 ## Example
 
